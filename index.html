@@ -43,7 +43,7 @@
   <header class="container mx-auto">
     <!-- navbar -->
     <nav>
-      <div class="navbar bg-base-100 flex justify-between">
+      <div class="navbar bg-base-100 justify-between items-center">
         <div class="navbar-start">
           
           <a class="text-xl lg:text-2xl"><i
@@ -81,11 +81,11 @@
     </nav>
     
     <!-- hero section -->
-     <div class="flex flex-col justify-center items-center py-8">
-      <div class="grid grid-cols-1 justify-center items-center">
+    <div class="flex flex-col justify-center items-center py-8">
+      <div>
         <img class="w-3/5 mx-auto" src="./images/banner.png" alt="">
       </div>
-      <div class="min-h-screen">
+      <div>
         <div class="hero-content text-center">
           <div class="max-w-screen-lg">
             <h1 class="text-2xl lg:text-6xl font-bold">A barn house of this design has a striking appearance</h1>
@@ -98,10 +98,74 @@
           </div>
         </div>
       </div>
-     </div>
-    
-
+     </div> 
   </header>
+
+  <!-- main section -->
+   <main>
+    <!-- about us section -->
+      <section class="">
+       <div class="lg:px-12 bg-base-200 min-h-screen">
+        <div class="relative hero-content flex-col lg:flex-row justify-center items-center py-16">
+          <div class="absolute top-5 left-3 w-16">
+            <img src="./images/Vector.png" alt="">
+          </div>
+         
+          <!-- about us text content -->
+          <div class="lg:pr-20">
+            <button class="btn bg-white text-black px-6 rounded-3xl mb-6">
+              <i
+              class="fa fa-thin fa-arrow-right"></i>
+              About Us</button>
+            <h1 class="text-2xl lg:text-5xl font-bold">We design thoughtful, liveable spaces </h1>
+            <p class="py-6">
+              The barn house captivates with its blend of rustic charm and 
+modern sophistication, featuring weathered wood, sleek metal accents.
+            </p>
+            <!-- card 1 -->
+            <div class="card card-side bg-base-100 shadow-xl">
+                <div class="px-2 py-6 lg:py-2 lg:px-6">
+                  <img
+                  src="./images/commercial.png"
+                  alt="Album" />
+                </div>
+              <div class="p-5">
+                <h2 class="text-xl lg:text-2xl font-bold">Commercial</h2>
+                <p class="text-sm">The barn house captivates with its blend of rustic charm and modern.</p>
+                <div class="card-actions justify-end">
+                </div>
+              </div>
+            </div>
+
+            <!-- card 2 -->
+            <div class="card card-side bg-base-100 shadow-xl mt-5">
+              <div class="px-2 py-6 lg:py-2 lg:px-6">
+                <img
+                src="./images/residential.png"
+                alt="Album" />
+              </div>
+            <div class="p-5">
+              <h2 class="text-xl lg:text-2xl font-bold">Residential</h2>
+              <p class="text-sm">The barn house captivates with its blend of rustic charm and modern.</p>
+              <div class="card-actions justify-end">
+              </div>
+            </div>
+          </div>
+          </div>
+          <!-- image content -->
+          <div>
+            <img
+            src="./images/Rectangle.png"
+            class="rounded-lg shadow-md"/>
+          </div>
+        </div>
+      </div>
+     </section>
+
+     <!-- stat section -->
+      <section class="py-10 bg-base-200">
+      </section>
+   </main>
 </body>
 
 </html>
