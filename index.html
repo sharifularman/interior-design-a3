@@ -316,7 +316,7 @@
     </section>
 
     <!-- articles and news -->
-    <section class="my-16 bg-base-200 py-20">
+    <section class="my-16 bg-base-200 pt-20">
       <div class="flex justify-center">
         <button class="btn bg-[rgba(171,239,95,0.5)] text-black px-8 rounded-3xl mb-6">
           <i class="fa fa-thin fa-arrow-right "></i>Rinterio News</button>
@@ -330,9 +330,9 @@
       </div>
 
       <!-- card content -->
-      <div class="grid grid-cols-1 lg:grid-cols-3 container mx-auto py-16">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:w-4/5 container mx-auto py-16">
         <!-- card-1 -->
-        <div class="card bg-base-100 shadow-xl lg:w-11/12">
+        <div class="card bg-base-100 shadow-xl ">
           <div class="py-2 mx-auto">
             <img src="./images/article1.png" alt="Shoes" />
           </div>
@@ -355,7 +355,7 @@
         </div>
 
         <!-- card 2 -->
-        <div class="card bg-base-100 shadow-xl lg:w-11/12">
+        <div class="card bg-base-100 shadow-xl ">
           <figure class="py-2">
             <img src="./images/article2.png" alt="Shoes" />
           </figure>
@@ -378,7 +378,7 @@
         </div>
 
         <!-- card 3 -->
-        <div class="card bg-base-100 shadow-xl lg:w-11/12">
+        <div class="card bg-base-100 shadow-xl ">
           <figure class="py-2">
             <img src="./images/article3.png" alt="" />
           </figure>
@@ -401,6 +401,36 @@
         </div>
       </div>
     </section>
+
+    <!-- input field -->
+     <section class="bg-[url(./images/bg.jpg)] py-16">
+      <div class="flex justify-center">
+        <button class="btn bg-[rgba(171,239,95,0.4)] text-black px-8 rounded-3xl mb-6">
+          <i class="fa fa-thin fa-arrow-right "></i>Let's Connect</button>
+      </div>
+      <!-- text content -->
+       <div class="lg:w-1/2 text-center mx-auto py-2">
+        <h2 class="text-2xl lg:text-5xl font-bold py-2">Let's Discuss Next Project</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim ducimus quod, vitae labore necessitatibus explicabo?</p>
+       </div>
+
+       <!-- text input -->
+        <div class="container py-4 px-2 lg:px-36 mx-auto">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-3">
+            <input type="text" placeholder="First Name*" class="input  rounded-full " />
+            <input type="text" placeholder="Last Name*" class="input  rounded-full " />
+            <input type="text" placeholder="Phone Number*" class="input  rounded-full" />
+            <input type="email" placeholder="Email Address" class="input  rounded-full " />
+          </div>
+          <div class="py-3">
+          <textarea class="textarea textarea-lg w-full h-40" placeholder="Write Your Message Here"></textarea>
+          </div>
+          <a class="btn bg-btn-primary rounded-full w-full">Send Mail<i
+            class="fa fa-solid fa-arrow-right -rotate-45 bg-black text-white p-1 rounded-full "></i></a>
+        </div>
+     </section>
+
+     <!--  -->
   </main>
 </body>
 
