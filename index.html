@@ -47,7 +47,8 @@
         <div class="navbar-start">
 
           <a class="text-xl lg:text-2xl"><i
-              class="fa fa-solid fa-arrow-right -rotate-45 bg-btn-primary text-black p-1 rounded-full mr-1"></i>Rinterio</a>
+              class="fa fa-solid fa-arrow-right -rotate-45 bg-btn-primary text-black p-1 rounded-full mr-1"></i>Rinterio
+          </a>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
@@ -69,7 +70,8 @@
               d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
           </svg>
           <a class="btn bg-btn-primary hover:text-btn-primary hover:bg-transparent">Book Consultant <i
-              class="fa fa-solid fa-arrow-right -rotate-45 bg-black text-white p-1 rounded-full "></i></a>
+              class="fa fa-solid fa-arrow-right -rotate-45 bg-black text-white p-1 rounded-full "></i>
+          </a>
         </div>
         <div class="dropdown dropdown-end">
           <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -403,35 +405,90 @@
     </section>
 
     <!-- input field -->
-     <section class="bg-[url(./images/bg.jpg)] py-16">
+    <section class="bg-[url(./images/bg.jpg)] py-16">
       <div class="flex justify-center">
         <button class="btn bg-[rgba(171,239,95,0.4)] text-black px-8 rounded-3xl mb-6">
           <i class="fa fa-thin fa-arrow-right "></i>Let's Connect</button>
       </div>
       <!-- text content -->
-       <div class="lg:w-1/2 text-center mx-auto py-2">
+      <div class="lg:w-1/2 text-center mx-auto py-2">
         <h2 class="text-2xl lg:text-5xl font-bold py-2">Let's Discuss Next Project</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim ducimus quod, vitae labore necessitatibus explicabo?</p>
-       </div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim ducimus quod, vitae labore necessitatibus
+          explicabo?</p>
+      </div>
 
-       <!-- text input -->
-        <div class="container py-4 px-2 lg:px-36 mx-auto">
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-3">
-            <input type="text" placeholder="First Name*" class="input  rounded-full " />
-            <input type="text" placeholder="Last Name*" class="input  rounded-full " />
-            <input type="text" placeholder="Phone Number*" class="input  rounded-full" />
-            <input type="email" placeholder="Email Address" class="input  rounded-full " />
-          </div>
-          <div class="py-3">
-          <textarea class="textarea textarea-lg w-full h-40" placeholder="Write Your Message Here"></textarea>
-          </div>
-          <a class="btn bg-btn-primary rounded-full w-full">Send Mail<i
-            class="fa fa-solid fa-arrow-right -rotate-45 bg-black text-white p-1 rounded-full "></i></a>
+      <!-- text input -->
+      <div class="container py-4 px-2 lg:px-36 mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-3">
+          <input type="text" placeholder="First Name*" class="input  rounded-full " />
+          <input type="text" placeholder="Last Name*" class="input  rounded-full " />
+          <input type="text" placeholder="Phone Number*" class="input  rounded-full" />
+          <input type="email" placeholder="Email Address" class="input  rounded-full " />
         </div>
-     </section>
+        <div class="py-3">
+          <textarea class="textarea textarea-lg w-full h-40" placeholder="Write Your Message Here"></textarea>
+        </div>
+        <a class="btn bg-btn-primary rounded-full w-full">Send Mail<i
+            class="fa fa-solid fa-arrow-right -rotate-45 bg-black text-white p-1 rounded-full "></i></a>
+      </div>
+    </section>
 
-     <!--  -->
+    <!-- bonus section (frequently asked question) -->
+    <section class="mb-20">
+      <div class="lg:flex gap-x-6 px-3 lg:px-16 items-center">
+        <div class="py-4">
+          <img src="./images/faq.png" alt="">
+        </div>
+        <div class="flex-1">
+          <div class="collapse collapse-plus bg-base-200 mb-2">
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+            <div class="collapse-content">
+              <p>hello</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-base-200 mb-2">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+            <div class="collapse-content">
+              <p>hello</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-base-200">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+            <div class="collapse-content">
+              <p>hello</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <!-- footer -->
+  <footer class="footer footer-center bg-black text-gray-300 rounded p-10">
+    <div class="lg:w-3/5">
+      <a class="text-xl lg:text-2xl"><i
+          class="fa fa-solid fa-arrow-right -rotate-45 bg-btn-primary text-black p-1 rounded-full mr-1"></i>Rinterio
+      </a>
+      <p class="text-center text-gray-400">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit placeat
+        doloribus illo! Eaque delectus explicabo minus dolor expedita, odit obcaecati? Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Voluptatibus, fuga?</p>
+    </div>
+    <nav class="grid grid-cols-1 lg:grid-cols-5 gap-x-20">
+      <a class="link link-hover">Home</a>
+      <a class="link link-hover">Services</a>
+      <a class="link link-hover">Portfolio</a>
+      <a class="link link-hover">Blogs</a>
+      <a class="link link-hover">About Us</a>
+    </nav>
+    <div>
+      <a class="btn bg-btn-primary rounded-full">Book Consultant <i
+        class="fa fa-solid fa-arrow-right -rotate-45 bg-black text-white p-1 rounded-full "></i>
+      </a>
+    </div>
+  </footer>
 </body>
 
 </html>
